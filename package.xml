@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>nmea2k_typeI</name>
+  <name>nmea2k_type1</name>
   <version>0.0.1</version>
-  <description>The nmea2k_typeI package</description>
+  <description>The nmea2k_type1 package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->
@@ -20,7 +20,7 @@
   <!-- Optional attribute type can be: website, bugtracker, or repository -->
   <!-- Example: -->
   <!-- <url type="website">http://wiki.ros.org/nmea2k_ros</url> -->
-  <url>https://github.com/usna-sailbot/nmea2k_typeI</url>
+  <url>https://github.com/usna-sailbot/nmea2k_type1</url>
 
   <!-- Author tags are optional, multiple are allowed, one per tag -->
   <!-- Authors do not have to be maintainers, but could be -->
