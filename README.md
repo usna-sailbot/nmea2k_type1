@@ -1,4 +1,4 @@
-# nmea2k_ros
+# nmea2k_typeI
 ### D Evangelista, 2020
 
 ## Problem statement
@@ -21,9 +21,9 @@ pip3 install --upgrade python-can
 Alternatively, on the Pi, follow the instructions here [[http://skpang.co.uk/blog/archives/1220]], in which the overlay for the Pican2 hardware is added and a specific version of Python-CAN is installed from [[https://bitbucket.org/hardbyte/python-can/get/4085cffd2519.zip]] using the `python3` `setuptools` (i.e. run the included `setup.py`). 
 
 ## Evangelista guess, Feb 2020
-I think we're going to want to be able to have one hardware Pican2 interface shared among various virtual nmea2k devices so I'm going to try writing that first.I'll call this **type II nmea2k**. 
+I think we're going to want to be able to have one hardware Pican2 interface shared among various virtual nmea2k devices so I'm going to try writing that first.I'll call this **type II nmea2k** and is addressed elsewhere, see [[https://github.com/usna-sailbot/nmea2k_typeII]].
 
-As an alternative, if that's too big or too slow, maybe I'll also try a compact pure Python layer on top of the Pican2 hardware that spits out ROS std_msgs? I'll call this **type I nmea2k**.
+As an alternative, if that's too big or too slow, maybe I'll also try a compact pure Python layer on top of the Pican2 hardware that spits out ROS std_msgs? I'll call this **type I nmea2k** and it is the subject of this repository. 
 
 ## Contributors
 D Evangelista
